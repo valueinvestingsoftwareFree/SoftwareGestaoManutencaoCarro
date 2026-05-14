@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Imagens do Software de Gerenciamento de Manutenção de Veículos</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #0f172a;
+        color: #e2e8f0;
+    }
+
+    header {
+        background: linear-gradient(135deg, #1e293b, #0f172a);
+        padding: 40px 20px;
+        text-align: center;
+        border-bottom: 1px solid #334155;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 28px;
+        color: #38bdf8;
+    }
+
+    header p {
+        margin-top: 10px;
+        color: #94a3b8;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 30px;
+    }
+
+    .section {
+        margin-bottom: 60px;
+        background: #111827;
+        padding: 20px;
+        border-radius: 12px;
+        border: 1px solid #1f2937;
+    }
+
+    .section h2 {
+        color: #38bdf8;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .section p {
+        color: #cbd5e1;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 15px;
+        border: 1px solid #334155;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+
+    @media (max-width: 1000px) {
+        .grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 650px) {
+        .grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 18px;
+        background: #38bdf8;
+        color: #0f172a;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+
+    .btn:hover {
+        background: #0ea5e9;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Visão Geral do Software de Gerenciamento de Manutenção de Veículos</h1>
+    <p>
+        Um sistema completo de gerenciamento de manutenção de veículos para desktop e mobile desenvolvido para acompanhamento de serviços, planejamento de manutenção preditiva, análise de custos, sincronização mobile e monitoramento de desempenho do veículo a longo prazo.
+    </p>
+    <a href="index.html" class="btn">← Voltar ao Índice</a>
+</header>
+
+<div class="container">
+
+    <div class="grid">
+
+        <div class="section">
+            <h2>Painel de Gerenciamento de Manutenção de Veículos</h2>
+            <p>Interface principal desktop utilizada para gerenciar cronogramas de manutenção, histórico de serviços, acompanhamento de reparos e histórico completo de manutenção do veículo.</p>
+            <img src="1.PNG">
+        </div>
+
+        <div class="section">
+            <h2>Análise de Custo de Combustível por KM</h2>
+            <p>Gráfico analítico exibindo o custo de combustível por quilômetro ao longo dos últimos 12 meses para avaliação precisa dos custos operacionais de longo prazo.</p>
+            <img src="2.PNG">
+        </div>
+
+        <div class="section">
+            <h2>Análise de Dispersão Custo de Manutenção vs Quilometragem</h2>
+            <p>Gráfico de dispersão posicionando o custo de manutenção no eixo Y e a quilometragem no eixo X para visualizar padrões de reparo e comportamento de manutenção.</p>
+            <img src="3.PNG">
+        </div>
+
+        <div class="section">
+            <h2>Interface de Solicitação de Suporte Técnico</h2>
+            <p>Janela de suporte integrada permitindo que os usuários solicitem assistência técnica, relatem problemas e recebam ajuda direta.</p>
+            <img src="4.PNG">
+        </div>
+
+        <div class="section">
+            <h2>Interface de Sincronização Mobile</h2>
+            <p>Janela de sincronização utilizada para conectar com segurança o aplicativo mobile ao software desktop para transferência de dados de manutenção em tempo real.</p>
+            <img src="5.PNG">
+        </div>
+
+        <div class="section">
+            <h2>Módulo Mobile de Gerenciamento de Manutenção</h2>
+            <p>Interface do aplicativo mobile para gerenciar tarefas de manutenção remotamente enquanto mantém sincronização centralizada com o software desktop.</p>
+            <img src="6.PNG">
+        </div>
+
+        <div class="section">
+            <h2>Níveis de Urgência de Manutenção do Veículo</h2>
+            <p>Spinner inteligente exibindo tarefas de manutenção usando indicadores de urgência codificados por cores: vermelho para crítico, laranja para próximas manutenções e amarelo para planejamento futuro.</p>
+            <img src="7.PNG">
+        </div>
+
+        <div class="section">
+            <h2>Custo de Manutenção Agrupado por Nível de Urgência</h2>
+            <p>Visualização das despesas de manutenção agrupadas por nível de urgência para ajudar na priorização do orçamento e no planejamento dos serviços.</p>
+            <img src="8.PNG">
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
